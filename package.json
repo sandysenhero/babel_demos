@@ -1,0 +1,31 @@
+{
+  "name": "babel_demos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/babel src -d build",
+	"dev":"./node_modules/.bin/gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandysenhero/babel_demos.git"
+  },
+  "keywords": [
+    "babel"
+  ],
+  "author": "sandywenjin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sandysenhero/babel_demos/issues"
+  },
+  "homepage": "https://github.com/sandysenhero/babel_demos#readme",
+  "devDependencies": {
+    "babel-cli": "^6.9.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2"
+  }
+}
